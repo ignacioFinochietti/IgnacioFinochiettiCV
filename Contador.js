@@ -11,8 +11,9 @@
     contadorClicksLinkedIn = redirigirA('https://www.linkedin.com/in/ignacio-finochietti-911a5113b/', contadorClicksLinkedIn);
     });
 
+
     document.getElementById('githubButton').addEventListener('click', function() {
-    contadorClicksGitHub = redirigirA('https://github.com/ignacioFinochietti', contadorClicksGitHub);
+    contadorClicksGitHub = redirigirA('https://github.com/ignacioFinochietti/', contadorClicksGitHub);
     });
 
     window.addEventListener('beforeunload', function() {
