@@ -97,10 +97,6 @@ header li{
     display: block;
 }
 
-
-
-
-
 .texto{
     flex-direction: column;
     margin-top: 2%;
@@ -155,7 +151,6 @@ margin-top: 20px;
     font-weight: lighter;
     }
 
-
 .boton {
     display: flex;
     flex: 1;
@@ -177,7 +172,6 @@ margin-top: 20px;
 .botonred {
     display: inline;
     margin-right: 1%;
-    flex: 1;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.5s ease;
@@ -190,12 +184,35 @@ margin-top: 20px;
 .boton:hover {
     background-color: #6d9acb;
 }
+
+#githubButton {
+
+    align-items: center;
+    padding: 5px; /* Ajusta el relleno según sea necesario */
+}
+
+#githubButton img {
+    height: 25px; /* La imagen ocupará el 100% de la altura del botón */
+}
+
+#linkedinButton {
+
+    align-items: center;
+    padding: 5px; /* Ajusta el relleno según sea necesario */
+}
+
+#linkedinButton img {
+    height: 25px; /* La imagen ocupará el 100% de la altura del botón */
+}
+
 footer {
   text-align: center; /* Centra horizontalmente el contenido del footer */
   color: white; /* Cambia el color del texto según tus preferencias */
   padding: 20px; /* Agrega relleno para espaciar el contenido del footer */
   margin-top: auto; /* Centra verticalmente el footer */
 }
+
+
 
 @media (max-width: 768px) {
     .menu-icon {
@@ -221,12 +238,3 @@ footer {
     }
 }
 
-#linkedinButton {
-
-    align-items: center;
-    padding: 5px; /* Ajusta el relleno según sea necesario */
-}
-
-#linkedinButton img {
-    height: 25px; /* La imagen ocupará el 100% de la altura del botón */
-}
