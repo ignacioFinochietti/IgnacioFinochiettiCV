@@ -49,8 +49,8 @@ header li{
     padding: 20px;
     width: 317px;
     height: 400px;
-    top: 237px;
-    left: 20px;
+    top: 23.7%;
+    left: 20%;
     border-radius: 50px;
     border: 1px;
     display: block;
@@ -60,7 +60,7 @@ header li{
 .imagen img{
     border-radius: 50px;
     border: 1px solid #000;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
     width: 317px;
     overflow: hidden; /* Oculta cualquier parte de la imagen fuera del contenedor circular */
     }
@@ -94,6 +94,10 @@ header li{
     display: block;
 }
 
+.nav-links.active {
+    display: block;
+}
+
 .texto{
     flex-direction: column;
     margin-top: 2%;
@@ -108,7 +112,6 @@ header li{
     font-weight: 600;
     line-height: normal;
     display: flex;
-
 }
 
 .textodif{
@@ -178,7 +181,7 @@ footer {
   margin-top: auto; /* Centra verticalmente el footer */
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .menu-icon {
       display: block; /* Mostrar el menú de hamburguesa en pantallas pequeñas */
     }
