@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     flex-direction: column;
     gap: 22%;
+    align-items: center;
 }
 
 .header{
@@ -93,12 +94,8 @@ header li{
     display: block;
 }
 
-  /* Estilos para el menú de navegación en pantallas pequeñas (activado por el menú de hamburguesa) */
-.nav-links.active {
-    display: block;
-}
-
 .texto{
+    flex-direction: column;
     margin-top: 2%;
     width: 80%;
     height: 430px;
@@ -110,10 +107,7 @@ header li{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-
     display: flex;
-    flex-direction: column; /* Apila los elementos verticalmente en dispositivos pequeños */
-    align-items: center; /* Centra los elementos horizontalmente */
 
 }
 
@@ -184,18 +178,26 @@ footer {
   margin-top: auto; /* Centra verticalmente el footer */
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .menu-icon {
       display: block; /* Mostrar el menú de hamburguesa en pantallas pequeñas */
     }
+    
     .nav-links {
       display: none; /* Ocultar la navegación en pantallas pequeñas */
     }
+
     .texto {
-        position: static;
+        flex-direction: column;
         text-align: center ;
+
     }
-    .img{
-        max-width: 50%; 
+    .line-break {
+        display: block; /* Muestra en dispositivos con un ancho de pantalla de 600 píxeles o menos */
+        }
+
+    .fototexto{
+        flex-direction: column;
+        width: 100%; 
     }
 }
