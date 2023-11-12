@@ -7,7 +7,15 @@
     return contador;
     }
 
-
+    document.getElementById('linkedinButton').addEventListener('click', function() {
+        contadorClicksLinkedIn = redirigirA('https://www.linkedin.com/in/ignacio-finochietti-911a5113b/', contadorClicksLinkedIn);
+        });
+    
+    
+        document.getElementById('githubButton').addEventListener('click', function() {
+        contadorClicksGitHub = redirigirA('https://github.com/ignacioFinochietti/', contadorClicksGitHub);
+        });
+    
     document.getElementById('faveditButton').addEventListener('click', function() {
         contadorClicksLinkedIn = redirigirA('https://www.educacionit.com/')
     });
@@ -16,14 +24,6 @@
         contadorClicksLinkedIn = redirigirA('https://www.uade.edu.ar/')
     });
 
-    document.getElementById('linkedinButton').addEventListener('click', function() {
-    contadorClicksLinkedIn = redirigirA('https://www.linkedin.com/in/ignacio-finochietti-911a5113b/', contadorClicksLinkedIn);
-    });
-
-
-    document.getElementById('githubButton').addEventListener('click', function() {
-    contadorClicksGitHub = redirigirA('https://github.com/ignacioFinochietti/', contadorClicksGitHub);
-    });
 
     window.addEventListener('beforeunload', function() {
     console.log(`LinkedIn fue clickeado ${contadorClicksLinkedIn} veces.`);
