@@ -23,8 +23,6 @@ body {
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
-    text-align: center; 
-    justify-content: center;
 }
 
 header li{
@@ -37,23 +35,19 @@ header li{
     text-align: center;
     font-family: Roboto;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
     margin-inline-start: 5%;
 
 }
 
 .imagen{
-    flex: 1; /* Ocupa el espacio disponible en la proporción deseada */
-    padding: 20px;
     width: 317px;
     height: 400px;
     top: 23.7%;
     left: 20%;
     border-radius: 50px;
     border: 1px;
-    display: block;
-    
+    padding: 20px;
 }
 
 .imagen img{
@@ -62,16 +56,13 @@ header li{
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
     width: 317px;
     overflow: hidden; /* Oculta cualquier parte de la imagen fuera del contenedor circular */
-    }
+}
 
 .fototexto{
     max-width: 100%;
     height: auto;
     display: flex;
     align-items: center; /* Alinea verticalmente la imagen y el texto */
-    margin: 2%;
-    margin: 0; /* Elimina el espacio predeterminado alrededor del párrafo */
-    height: auto; /* Mantiene la relación de aspecto de la imagen */
     margin: 2%;
 }
 
@@ -107,10 +98,6 @@ header li{
     text-align: center;
     font-family: Roboto;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    display: flex;
 }
 
 .textodif{
@@ -123,10 +110,7 @@ header li{
     text-align: justify;
     font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: bolder;
-    line-height: normal;
-
 }
 
 .textodif li{
@@ -138,28 +122,20 @@ margin-top: 20px;
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-}
-
-.variante1 {
-    font-weight:bold;
 }
 
 .ligero {
     font-weight: lighter;
-    }
+}
 
 .boton {
-    display: flex;
-    flex: 1;
     width: 10em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     padding: 1%;
-    font-size: 60%;
+    font-size: 16px;
     background-color:#fff ;
     color: #000000;
     border-radius: 90px;
@@ -185,23 +161,22 @@ margin-top: 20px;
     background-color: #6d9acb;
 }
 
+#uadeButton,
+#faveditButton,
+#linkedinButton,
 #githubButton {
-
     align-items: center;
     padding: 5px; /* Ajusta el relleno según sea necesario */
 }
 
+#uadeButton img {
+    width: 25px; ;
+    height: 25px; ;
+}
+
+#faveditButton img,
+#linkedinButton img,
 #githubButton img {
-    height: 25px; /* La imagen ocupará el 100% de la altura del botón */
-}
-
-#linkedinButton {
-
-    align-items: center;
-    padding: 5px; /* Ajusta el relleno según sea necesario */
-}
-
-#linkedinButton img {
     height: 25px; /* La imagen ocupará el 100% de la altura del botón */
 }
 
@@ -211,8 +186,6 @@ footer {
   padding: 20px; /* Agrega relleno para espaciar el contenido del footer */
   margin-top: auto; /* Centra verticalmente el footer */
 }
-
-
 
 @media (max-width: 768px) {
     .menu-icon {

@@ -7,6 +7,15 @@
     return contador;
     }
 
+
+    document.getElementById('faveditButton').addEventListener('click', function() {
+        contadorClicksLinkedIn = redirigirA('https://www.educacionit.com/')
+    });
+
+    document.getElementById('uadeButton').addEventListener('click', function() {
+        contadorClicksLinkedIn = redirigirA('https://www.uade.edu.ar/')
+    });
+
     document.getElementById('linkedinButton').addEventListener('click', function() {
     contadorClicksLinkedIn = redirigirA('https://www.linkedin.com/in/ignacio-finochietti-911a5113b/', contadorClicksLinkedIn);
     });
