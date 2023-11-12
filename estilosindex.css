@@ -9,6 +9,7 @@ body {
 }
 
 .header{
+
     width: 100%; ;
     height: 1.4%;
     background: rgba(245, 245, 245, 0.218);
@@ -30,14 +31,12 @@ header li{
     border-radius: 90px;
     height: 40%;
     width: 3.2%;
-    top: 18%;
     background: #FFF;
     text-align: center;
     font-family: Roboto;
     font-size: 24px;
     font-weight: 600;
-    margin-inline-start: 5%;
-
+    margin-inline-start: 9%;
 }
 
 .imagen{
@@ -53,25 +52,25 @@ header li{
 .imagen img{
     border-radius: 50px;
     border: 1px solid #000;
-    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     width: 317px;
-    overflow: hidden; /* Oculta cualquier parte de la imagen fuera del contenedor circular */
+    overflow: hidden;
 }
 
 .fototexto{
     max-width: 100%;
     height: auto;
     display: flex;
-    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    align-items: center; 
     margin: 2%;
 }
 
 .menu-icon {
-    display: none; /* Ocultar el menú en pantallas grandes */
+    display: none; 
     cursor: pointer;
 }
 
-/* Estilos para las barras del ícono de hamburguesa */
+
 .bar {
     width: 30px;
     height: 3px;
@@ -79,7 +78,7 @@ header li{
     margin: 6px 0;
 }
 
-/* Estilos para el menú de navegación en pantallas grandes */
+
 .nav-links {
     display: block;
 }
@@ -161,14 +160,18 @@ margin-top: 20px;
     background-color: #6d9acb;
 }
 
+
+#descargarPDF, 
 #uadeButton,
 #faveditButton,
 #linkedinButton,
 #githubButton {
     align-items: center;
-    padding: 5px; /* Ajusta el relleno según sea necesario */
+    padding: 5px; 
 }
 
+
+#descargarPDF img,
 #uadeButton img {
     width: 25px; ;
     height: 25px; ;
@@ -177,23 +180,23 @@ margin-top: 20px;
 #faveditButton img,
 #linkedinButton img,
 #githubButton img {
-    height: 25px; /* La imagen ocupará el 100% de la altura del botón */
+    height: 25px; 
 }
 
 footer {
-  text-align: center; /* Centra horizontalmente el contenido del footer */
-  color: white; /* Cambia el color del texto según tus preferencias */
-  padding: 20px; /* Agrega relleno para espaciar el contenido del footer */
-  margin-top: auto; /* Centra verticalmente el footer */
+    text-align: center; 
+    color: white; 
+    padding: 20px; 
+    margin-top: auto; 
 }
 
 @media (max-width: 768px) {
     .menu-icon {
-      display: block; /* Mostrar el menú de hamburguesa en pantallas pequeñas */
+    display: block;
     }
     
     .nav-links {
-      display: none; /* Ocultar la navegación en pantallas pequeñas */
+    display: none; 
     }
 
     .texto {
@@ -202,7 +205,7 @@ footer {
 
     }
     .line-break {
-        display: block; /* Muestra en dispositivos con un ancho de pantalla de 600 píxeles o menos */
+        display: block; 
         }
 
     .fototexto{
