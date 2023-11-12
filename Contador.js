@@ -15,14 +15,6 @@
         document.getElementById('githubButton').addEventListener('click', function() {
         contadorClicksGitHub = redirigirA('https://github.com/ignacioFinochietti/', contadorClicksGitHub);
         });
-    
-    document.getElementById('faveditButton').addEventListener('click', function() {
-        contadorClicksLinkedIn = redirigirA('https://www.educacionit.com/')
-    });
-
-    document.getElementById('uadeButton').addEventListener('click', function() {
-        contadorClicksLinkedIn = redirigirA('https://www.uade.edu.ar/')
-    });
 
 
     window.addEventListener('beforeunload', function() {
